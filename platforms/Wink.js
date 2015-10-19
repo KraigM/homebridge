@@ -54,8 +54,6 @@ WinkPlatform.prototype = {
           device = devices[i];
           if (device.type == 'lock') {
             foundAccessories.push(new WinkLockAccessory(that.log, device, that.api));
-          } else if (device.type == 'light_bulb') {
-            foundAccessories.push(new WinkLightAccessory(that.log, device, that.api));
           }
         }
 
@@ -204,5 +202,4 @@ WinkLockAccessory.prototype.isLocked= function() {
 
 module.exports.accessory = WinkAccessory;
 module.exports.accessory = WinkLockAccessory;
-module.exports.accessory = WinkLightAccessory;
 module.exports.platform = WinkPlatform;
