@@ -38,7 +38,7 @@
     "tough-cookie": "^2.0.0",
     "unofficial-nest-api": "git+https://github.com/hachidorii/unofficial_nodejs_nest.git#d8d48edc952b049ff6320ef99afa7b2f04cdee98",
     "wemo": "0.2.x",
-    "wink-js": "0.0.5",
+    "node-winkapi": "0.1.2",
     "xml2js": "0.4.x",
     "xmldoc": "0.1.x",
     "yamaha-nodejs": "0.4.x"
